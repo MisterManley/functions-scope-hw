@@ -94,19 +94,77 @@
 
 //Mental/Physical Rep #2 (code only)
 
-function palindrome(characters){
+// function palindrome(characters){
 
-    characters = characters.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
-    const length = characters.length;
+//     characters = characters.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
+//     const length = characters.length;
 
-    for(let i = 0; i < length/2; i++){
-        if(characters[i] !== characters[length -1 - i]){
-            return "This is not a palindrome!";
-        }
-    }
-    return "This is a palidrome!"
-}
+//     for(let i = 0; i < length/2; i++){
+//         if(characters[i] !== characters[length -1 - i]){
+//             return "This is not a palindrome!";
+//         }
+//     }
+//     return "This is a palidrome!"
+// }
 
-let data = prompt("Please enter a word, phrase or sentence to see if it's a palindrome.");
-let results = palindrome(data);
-console.log(results);
+// let data = prompt("Please enter a word, phrase or sentence to see if it's a palindrome.");
+// let results = palindrome(data);
+// console.log(results);
+
+// Mental/Phsycial rep #3 (code only)
+
+// function palindrome(chars){
+
+//         chars = chars.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
+//         const long = chars.length;
+
+//         for(let i = 0; i < long/2; i++){
+//             if(chars[i] !== chars[long -1 -i]){
+//                 return "This is not a palindrome!";
+//             }
+//         }
+//         return "This is a palindrome";
+// }
+
+// let words = prompt("Please enter a phrase, word, or sentence");
+// let result = palindrome(words);
+
+// console.log(result);
+
+//Mental/Physical rep #4
+
+// function palindrome(chars) {
+
+//     chars = chars.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
+//     long = chars.length;
+
+//     for(let i = 0; i < long/2; i++){
+//         if(chars[i] !== chars[long -1 - i]){
+//         return "This is not a palindrome!";
+//         }
+//     }
+//     return "This is a palindrome!";
+
+// }
+
+// let iWonder = prompt("Please enter a word, phrase or sentence.");
+// let results = palindrome(iWonder);
+// console.log(results);
+
+//Mental/Physical rep #5 (code only)
+
+// function palindrome(chars){
+//     chars = chars.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
+//     long = chars.length;
+
+//     for(let i = 0; i < long/2; i++){
+//         if(chars[i] !== chars[long -1 - i]){
+//             return "This is not a palindrome!";
+//         }
+//     }
+//     return "This is a palindrome!";
+// }
+
+// let iWonder = prompt("Please enter a word, phrase or sentence.");
+// let results = palindrome(iWonder);
+// console.log(results);
