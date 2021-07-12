@@ -168,3 +168,21 @@
 // let iWonder = prompt("Please enter a word, phrase or sentence.");
 // let results = palindrome(iWonder);
 // console.log(results);
+
+//Check a List
+
+function checkForStudent(data, array){
+
+    for(let i = 0; i < array.length; i++){
+        if(array[i] === "Sally"){
+            return "We found Sally";            //ends the loop because Sally
+                                                //was found first in the array
+        } else {
+            return "Maybe it's Kyle";
+        }
+    }
+
+}
+
+const studentIncluded =  checkForStudent('Sally', ['Sally', 'Kyle']);
+console.log(studentIncluded);
