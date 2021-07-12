@@ -171,18 +171,51 @@
 
 //Check a List
 
-function checkForStudent(data, array){
+// function checkForStudent(data, array){
 
-    for(let i = 0; i < array.length; i++){
-        if(array[i] === "Sally"){
-            return "We found Sally";            //ends the loop because Sally
-                                                //was found first in the array
-        } else {
-            return "Maybe it's Kyle";
-        }
-    }
+//     for(let i = 0; i < array.length; i++){
+//         if(array[i] === "Sally"){
+//             return "We found Sally";            //ends the loop because Sally
+//                                                 //was found first in the array
+//         } else {
+//             return "Maybe it's Kyle";
+//         }
+//     }
 
-}
+// }
 
-const studentIncluded =  checkForStudent('Sally', ['Sally', 'Kyle']);
-console.log(studentIncluded);
+// const studentIncluded =  checkForStudent('Sally', ['Sally', 'Kyle']);
+// console.log(studentIncluded);
+
+// Mental/Physical rep #1
+
+// function checkForStudent(string, stringArray){
+//         for(let i = 0; i < stringArray.length; i++){
+//             if(stringArray[i] === "Sally"){
+//                 return "We found Sally!";
+//             }
+//         }
+//         return "Or maybe... it's Kyle";
+// }
+
+// const studentIncluded = checkForStudent("Sally", ["Sally", "Kyle"]);
+// console.log(studentIncluded);
+
+// Mental/Physical rep #2
+
+// function checkForStudent(string, array){
+//     for(let i = 0; i < array.length; i++){
+//         if(array[i] === "Sally"){
+//             return "We Found Sally! Take down the roadblocks!"
+//         }
+//     }
+//     return "Or maybe it's Kyle... dang."
+
+// }
+
+
+// const studentIncluded = checkForStudent("Sally", ["Sally", "Kyle"]);
+// console.log(studentIncluded);
+
+//Mental/Physical rep #3
+
