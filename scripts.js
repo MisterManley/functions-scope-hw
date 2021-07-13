@@ -107,115 +107,47 @@
 //     return "This is a palidrome!"
 // }
 
-// let data = prompt("Please enter a word, phrase or sentence to see if it's a palindrome.");
-// let results = palindrome(data);
-// console.log(results);
-
-// Mental/Phsycial rep #3 (code only)
-
-// function palindrome(chars){
-
-//         chars = chars.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
-//         const long = chars.length;
-
-//         for(let i = 0; i < long/2; i++){
-//             if(chars[i] !== chars[long -1 -i]){
-//                 return "This is not a palindrome!";
-//             }
-//         }
-//         return "This is a palindrome";
-// }
-
-// let words = prompt("Please enter a phrase, word, or sentence");
-// let result = palindrome(words);
-
-// console.log(result);
-
-//Mental/Physical rep #4
-
-// function palindrome(chars) {
-
-//     chars = chars.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
-//     long = chars.length;
-
-//     for(let i = 0; i < long/2; i++){
-//         if(chars[i] !== chars[long -1 - i]){
-//         return "This is not a palindrome!";
-//         }
-//     }
-//     return "This is a palindrome!";
-
-// }
-
-// let iWonder = prompt("Please enter a word, phrase or sentence.");
-// let results = palindrome(iWonder);
-// console.log(results);
-
-//Mental/Physical rep #5 (code only)
-
-// function palindrome(chars){
-//     chars = chars.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
-//     long = chars.length;
-
-//     for(let i = 0; i < long/2; i++){
-//         if(chars[i] !== chars[long -1 - i]){
-//             return "This is not a palindrome!";
-//         }
-//     }
-//     return "This is a palindrome!";
-// }
-
-// let iWonder = prompt("Please enter a word, phrase or sentence.");
-// let results = palindrome(iWonder);
-// console.log(results);
 
 //Check a List
 
-// function checkForStudent(data, array){
-
-//     for(let i = 0; i < array.length; i++){
-//         if(array[i] === "Sally"){
-//             return "We found Sally";            //ends the loop because Sally
-//                                                 //was found first in the array
-//         } else {
-//             return "Maybe it's Kyle";
-//         }
-//     }
-
-// }
-
-// const studentIncluded =  checkForStudent('Sally', ['Sally', 'Kyle']);
-// console.log(studentIncluded);
-
-// Mental/Physical rep #1
 
 // function checkForStudent(string, stringArray){
-//         for(let i = 0; i < stringArray.length; i++){
-//             if(stringArray[i] === "Sally"){
-//                 return "We found Sally!";
-//             }
-//         }
-//         return "Or maybe... it's Kyle";
+//     for(let i = 0; i < stringArray.length; i++){
+//         if(stringArray[i] === "Sally"){
+//             return `We found ${stringArray[i]} at the ${i} position in the array! Let's get this party started!`;
+//         } 
+
+//     } 
+    
+    
 // }
 
-// const studentIncluded = checkForStudent("Sally", ["Sally", "Kyle"]);
+
+// const studentIncluded = checkForStudent('Sally', ["Bill", "Kyle", "Gregory", "Sally"]);
+
 // console.log(studentIncluded);
 
-// Mental/Physical rep #2
+/////////////////// SUM an ARRAY /////////////////////////////////////
 
-// function checkForStudent(string, array){
-//     for(let i = 0; i < array.length; i++){
-//         if(array[i] === "Sally"){
-//             return "We Found Sally! Take down the roadblocks!"
-//         }
+// function sumArray(array){
+//     let theSum= 0;
+//     for(let i in array){
+//         theSum += array[i];
 //     }
-//     return "Or maybe it's Kyle... dang."
-
+//     return theSum;
 // }
 
+// let testArray = [1, 2, 3, 4, 5, 6];
+// let result = sumArray(testArray);
+// console.log(result);
 
-// const studentIncluded = checkForStudent("Sally", ["Sally", "Kyle"]);
-// console.log(studentIncluded);
+/////////// A-HA! Found a use for the for...in loop credit: 
+/////////// https://www.codegrepper.com/code-examples/javascript/sum+of+array+of+numbers+in+javascript+without+using+inbuilt+function
 
-//Mental/Physical rep #3
+//Goodness... that was long.
+
+
+
+
+
 
