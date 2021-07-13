@@ -114,16 +114,18 @@
 function checkForStudent(string, stringArray){
     for(let i = 0; i < stringArray.length; i++){
         if(stringArray[i] === string){
-            return `We found ${stringArray[i]} at the ${i} position in the array! Let's get this party started!`;
+            return true;
         } 
 
     } 
+
+    return false;
     
     
 }
 
 searchParameter = "Sally";
-searchList = ["Bill", "Kyle", "Gregory", "Sally"]
+searchList = ["Bill", "Kyle", "Gregory"]
 
 
 const studentIncluded = checkForStudent(searchParameter, searchList);
