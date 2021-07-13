@@ -111,21 +111,24 @@
 //Check a List
 
 
-// function checkForStudent(string, stringArray){
-//     for(let i = 0; i < stringArray.length; i++){
-//         if(stringArray[i] === "Sally"){
-//             return `We found ${stringArray[i]} at the ${i} position in the array! Let's get this party started!`;
-//         } 
+function checkForStudent(string, stringArray){
+    for(let i = 0; i < stringArray.length; i++){
+        if(stringArray[i] === string){
+            return `We found ${stringArray[i]} at the ${i} position in the array! Let's get this party started!`;
+        } 
 
-//     } 
+    } 
     
     
-// }
+}
+
+searchParameter = "Sally";
+searchList = ["Bill", "Kyle", "Gregory", "Sally"]
 
 
-// const studentIncluded = checkForStudent('Sally', ["Bill", "Kyle", "Gregory", "Sally"]);
+const studentIncluded = checkForStudent(searchParameter, searchList);
 
-// console.log(studentIncluded);
+console.log(studentIncluded);
 
 /////////////////// SUM an ARRAY /////////////////////////////////////
 
