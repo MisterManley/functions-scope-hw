@@ -146,8 +146,48 @@
 
 //Goodness... that was long.
 
+// function sumDigits(digits){
+
+//     let num = digits;
+//     let sum = 0;
+
+//     while(num > 0){
+//         let remainder = num % 10;
+//         sum += remainder;
+//         num = parseInt(num /10);
+//     }
+//     return sum;
 
 
+// }
+
+// const sum = sumDigits(42);
+// console.log(sum);
+
+//Interesting technique I found at citation: https://www.youtube.com/watch?v=q0N5Kro96kI
+//to get the individual digiits of a number you have to divide by ten and get the modulus
+//and then convert that into an integer that can be added to sum I'll do more of these as
+// free time permits
+
+/////////////////// Pythagoras //////////////////////////////
+
+// function pythagoras(sideA, sideB){
+//     let holderA = (sideA * sideA);
+//     let holderB = (sideB * sideB);
+//     let sumX = 0;
+//     sumX = (holderA + holderB);
+    
+//     let hypotenuse = Math.sqrt(sumX);
+//     return hypotenuse;
+// } 
+
+
+// let sideA = 6;
+// let sideB = 9;
+// let theHypotenuse = pythagoras(sideA, sideB);
+// console.log(theHypotenuse);
+
+///// Square root function courtesy of a quick look at the Math library /////////////
 
 
 

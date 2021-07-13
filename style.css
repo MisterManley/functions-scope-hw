@@ -3,3 +3,32 @@ body {
     color: white;
     font-family:Arial, Helvetica, sans-serif;
 }
+
+h1, h2{
+    color: #10688b;
+    text-shadow: 1px 1px 2px white;
+    font-weight: 700;
+    text-align: justify;
+    margin: 15px;
+}
+
+footer li {
+    font-weight: 800;
+}
+
+#first-article h2{
+    color: red;
+}
+
+#second-article h2{
+    color: rgb(4, 63, 9);
+}
+
+.article-summary{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.arti-body{
+    margin: 15px;
+}
